@@ -1,0 +1,3 @@
+AUTHENTICATION_TOKEN = 'safsaf'
+
+

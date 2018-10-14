@@ -1,0 +1,32 @@
+
+
+as an employer i want to participate in SHU's apprenticeship program for software development, database design, devops, and security curccuiculmus
+
+SHU will pay employers the following rates to entice them to continue the program:
+$1000.00 per student that completes an apprenticeship
+$5000.00 per student that is offered and accepts a full-time position after graudating. 
+a 15% bonus of total students that participate in an apprenticship at one time. 
+
+As legislature in CT trying to keep talent in CT, employers that particpate in the program will be given a tax reduction of .05 percent per student in a calendar year up to maximum 10% reduction in corporate tax rate. 
+CT will also give a one time tax credit of $2000 to employers that go on to hire a studen full time up to a maximum of $10,0000. per calendar year. 
+
+AS as employer, I reserve the right to flunk a student based on poor performance on poor conduct. 
+
+As director of computer sicence department, i can remove a student from the program that has too many negative reviews. 
+
+As director of computer science department, each employer must agree to utilize an intern for a minimum of 160 hours 
+
+as a director of computer science department, i need an automatic matching program that will match the student and employer that will lead to best chance of completing an apprenticeship based of properties of:
+student GPA 
+Number of employees at company
+number of students failed at company corresponding to each student's GPA 
+number of students success at company corresponding to each student's GPA
+number of open slots company has left to fill 
+Prior students rating of the company after completing the apprenticeship. 
+
+as an employer i reservee the right to interview and decline that student based on how interivew went. 
+as director of computer science department, i reserve the right to cancel a employer's participation in the program. 
+
+
+Base rate for 2019-2020
+Freshman $6.00 per hour
