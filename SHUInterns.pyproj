@@ -7,7 +7,8 @@
     <ProjectGuid>23a81c8c-93cb-4327-996a-e1fb40855289</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>runserver.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,12 +28,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="runserver.py" />
-    <Compile Include="SHUInterns\__init__.py" />
-    <Compile Include="SHUInterns\views.py" />
+    <Compile Include="shuinterns\constants.py" />
+    <Compile Include="shuinterns\driver.py" />
+    <Compile Include="shuinterns\student.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="shuinterns\wsgi.py" />
+    <Compile Include="shuinterns\__init__.py" />
+    <Compile Include="shuinterns\views.py" />
+    <Compile Include="tests\test_calculator.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SHUInterns\" />
+    <Folder Include="tests\" />
+    <Folder Include="shuinterns\" />
     <Folder Include="SHUInterns\static\" />
     <Folder Include="SHUInterns\static\content\" />
     <Folder Include="SHUInterns\static\fonts\" />
@@ -40,7 +50,13 @@
     <Folder Include="SHUInterns\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="buildspec.yml" />
+    <Content Include="Dockerfile" />
+    <Content Include="README.md" />
     <Content Include="requirements.txt" />
+    <Content Include="shuinterns\nginx.conf" />
+    <Content Include="shuinterns\serve" />
     <Content Include="SHUInterns\static\content\bootstrap.css" />
     <Content Include="SHUInterns\static\content\bootstrap.min.css" />
     <Content Include="SHUInterns\static\content\site.css" />
